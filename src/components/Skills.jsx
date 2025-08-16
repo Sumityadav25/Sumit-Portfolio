@@ -9,7 +9,7 @@ import {
   FaJava,
   FaPython,
 } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiOpenai, SiC, SiDatabricks } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiC, SiDatabricks } from 'react-icons/si';
 
 const skillCategories = [
   {
