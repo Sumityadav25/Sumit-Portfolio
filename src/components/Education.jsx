@@ -18,7 +18,7 @@ const Education = () => {
             <p className="text-md text-blue-400 mt-1">
               Sagar Institute of Research and Technology, Bhopal
             </p>
-            <p className="text-sm text-gray-300">2022 – 2026 | CGPA: 6.78</p>
+            <p className="text-sm text-gray-300">2022 – 2026 | CGPA: 6.91(till 6th-SEM)</p>
           </div>
 
           {/* 12th */}

@@ -2,27 +2,42 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'AI Chatbot (Rule-based + OpenAI)',
-    description: 'A smart chatbot that responds using both custom logic and OpenAI’s GPT trial for natural conversation.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'OpenAI API'],
-    link: 'https://github.com/Sumityadav25/chatbot-project'
-  },
-  {
-    title: 'Weather Forecast App',
-    description: '5-day weather forecast app using Chart.js for graphs, with real-time location support.',
-    tech: ['React', 'Chart.js', 'API','HTML','CSS','Javascript'],
-    link: 'https://github.com/Sumityadav25/weather-forecast-app'
+    title: 'College Event Managing App (Developing)',
+    description:
+      'A platform for managing college events, announcements, and registrations. Enables clubs to post events and students to register & get notified instantly.',
+    tech: ['MERN', 'REST APIs'],
+    link: '#'
   },
   {
     title: 'AI-Driven Recipe Sharing App',
-    description: 'Users can share recipes and get suggestions using AI. Built with full-stack MERN.',
-    tech: ['MERN', 'OpenAI API', 'Tailwind CSS','Node.js','Express.js','MongoDB','JWT','REST APIs'],
-    link: 'https://github.com/Sumityadav25/recipe-sharing-ai'
+    description:
+      'Built with MERN stack featuring user authentication, search and image uploads. Focus on AI-based recipe recommendation.',
+    tech: ['React.js', 'OpenAI API', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST APIs'],
+    link: 'https://github.com/Sumityadav25'
   },
   {
-    title: 'Aarogyam-The Indian Hospital Management System*',
-    description: 'A full-stack MERN project (in progress) to help users find nearby hospitals, check real-time bed/blood/organ availability, access emergency care, and connect with hospitals',
-    tech: [' React.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT', 'Socket.io', 'Google Maps API']
+    title: 'Weather Forecast Application',
+    description:
+      'Developed using React.js and Chart.js. Fetched live weather data using OpenWeatherMAP API with graphical visualization.',
+    tech: ['React.js', 'Chart.js', 'OpenWeatherMap API', 'HTML', 'CSS', 'JavaScript'],
+    link: 'https://github.com/Sumityadav25/weather-forecast-app'
+  },
+  
+  {
+    title: 'ChatBot (Rule-Based + OpenAI API)',
+    description:
+      'Led frontend using React.js in a 4-member team. Integrated rule-based logic with OpenAI API for basic intelligent responses.',
+    tech: ['React.js', 'OpenAI API', 'JavaScript', 'HTML', 'CSS'],
+    link: 'https://github.com/Sumityadav25'
+  },
+  
+  
+  {
+    title: 'Open Source Contributions',
+    description:
+      'Contributed to beginner-level GitHub projects, focusing on UI fixes and code optimization.',
+    tech: ['Git', 'GitHub', 'HTML', 'CSS', 'JavaScript'],
+    link: '#'
   }
 ];
 
@@ -58,14 +73,16 @@ const Projects = () => {
               ))}
             </div>
 
-            <a
-              href={proj.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-yellow-400 hover:underline text-sm"
-            >
-              View Project →
-            </a>
+            {proj.link && proj.link !== '#' && (
+              <a
+                href={proj.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-400 hover:underline text-sm"
+              >
+                View Project →
+              </a>
+            )}
           </div>
         ))}
       </div>

@@ -16,7 +16,7 @@ const Hero = () => {
       </h1>
 
       <p className="text-xl text-blue-400 font-medium mb-1">
-        MERN Stack Developer | DSA Enthusiast
+        Full Stack Developer | DSA Enthusiast
       </p>
 
       <p className="text-sm text-gray-300 mb-4">
@@ -24,7 +24,7 @@ const Hero = () => {
       </p>
 
       <a
-        href="/Sumit_Kumar_Yadav_Resume.pdf"
+        href="/resume.pdf"
         download
         className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300"
       >

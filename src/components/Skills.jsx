@@ -6,25 +6,29 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaJava,
+  FaPython,
 } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiOpenai } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiOpenai, SiC, SiDatabricks } from 'react-icons/si';
 
 const skillCategories = [
   {
-    title: 'Frontend',
+    title: 'Programming Languages',
+    skills: [
+      { name: 'C', icon: <SiC className="text-blue-500" /> },
+      { name: 'Java', icon: <FaJava className="text-red-500" /> },
+      { name: 'Python', icon: <FaPython className="text-yellow-400" /> },
+    ],
+  },
+  {
+    title: 'Web Development',
     skills: [
       { name: 'HTML', icon: <FaHtml5 className="text-orange-500" /> },
       { name: 'CSS', icon: <FaCss3Alt className="text-blue-500" /> },
       { name: 'JavaScript', icon: <FaJsSquare className="text-yellow-400" /> },
       { name: 'React.js', icon: <FaReact className="text-cyan-400" /> },
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
       { name: 'Node.js', icon: <FaNodeJs className="text-green-600" /> },
       { name: 'Express.js', icon: <SiExpress className="text-gray-300" /> },
-      { name: 'OpenAI API', icon: <SiOpenai className="text-purple-500" /> },
     ],
   },
   {
@@ -32,6 +36,14 @@ const skillCategories = [
     skills: [
       { name: 'MongoDB', icon: <SiMongodb className="text-green-700" /> },
       { name: 'Git & GitHub', icon: <FaGitAlt className="text-orange-600" /> },
+    ],
+  },
+  {
+    title: 'Core Concepts',
+    skills: [
+      { name: 'Data Structures & Algorithms', icon: <SiDatabricks className="text-pink-500" /> },
+      { name: 'DBMS', icon: <SiMongodb className="text-green-700" /> },
+      { name: 'Computer Networks', icon: <SiExpress className="text-gray-300" /> },
     ],
   },
 ];

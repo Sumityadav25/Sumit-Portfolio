@@ -20,7 +20,7 @@ const Navbar = () => {
           <button onClick={() => scrollTo('contact')} className="hover:text-yellow-400 transition">Contact</button>
 
           <a
-            href="/Sumit_Kumar_Yadav_Resume.pdf"
+            href="/resume.pdf"
             download
             className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-md hover:bg-yellow-500 transition font-semibold"
           >

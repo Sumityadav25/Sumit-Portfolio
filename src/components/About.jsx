@@ -11,17 +11,17 @@ const About = () => {
 
         <p className="text-lg sm:text-xl leading-relaxed mb-8 text-gray-300">
           I'm <span className="font-semibold text-white">Sumit Kumar Yadav</span>, a passionate
-          <span className="text-blue-400 font-medium"> MERN Stack Developer</span> and
+          <span className="text-blue-400 font-medium"> Full Stack Developer</span> and
           <span className="text-green-400 font-medium"> DSA Enthusiast</span> from
           Bhopal, Madhya Pradesh. I love solving real-world problems with full-stack web development and
           continuously exploring new technologies.
         </p>
 
-        <h3 className="text-2xl font-semibold text-gray-200 mb-4">Interests & Hobbies</h3>
+        <h3 className="text-2xl font-semibold text-gray-200 mb-4">Hobbies</h3>
         <ul className="space-y-2 text-lg text-gray-400">
           <li>🏏 Playing Cricket</li>
+          <li>📜 Exploring Hindu Epics</li>
           <li>🎧 Listening to Music</li>
-          <li>📜 Interest in History</li>
         </ul>
       </div>
     </section>
